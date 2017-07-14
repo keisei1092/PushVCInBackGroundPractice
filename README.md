@@ -1,0 +1,3 @@
+* ModalViewControllerをpresentする
+* ModalViewControllerをdismissする
+  * このとき、dismiss先のViewControllerのNavigationControllerをpushしてSecondViewControllerを表示しておく
