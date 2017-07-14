@@ -14,6 +14,11 @@
 		45E239761F18909400A8558A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E239741F18909400A8558A /* LaunchScreen.storyboard */; };
 		45E239811F18909500A8558A /* PushVCInBackGroundPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E239801F18909500A8558A /* PushVCInBackGroundPracticeTests.swift */; };
 		45E2398C1F18909500A8558A /* PushVCInBackGroundPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E2398B1F18909500A8558A /* PushVCInBackGroundPracticeUITests.swift */; };
+		45E2399A1F1890ED00A8558A /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E239991F1890ED00A8558A /* ModalViewController.swift */; };
+		45E2399C1F18914800A8558A /* ModalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E2399B1F18914800A8558A /* ModalViewController.storyboard */; };
+		45E2399E1F1892A200A8558A /* ModalNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E2399D1F1892A200A8558A /* ModalNavigationController.swift */; };
+		45E239A01F18947100A8558A /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E2399F1F18947100A8558A /* SecondViewController.storyboard */; };
+		45E239A21F18949500A8558A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E239A11F18949500A8558A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		45E239871F18909500A8558A /* PushVCInBackGroundPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushVCInBackGroundPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E2398B1F18909500A8558A /* PushVCInBackGroundPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushVCInBackGroundPracticeUITests.swift; sourceTree = "<group>"; };
 		45E2398D1F18909500A8558A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E239991F1890ED00A8558A /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		45E2399B1F18914800A8558A /* ModalViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ModalViewController.storyboard; sourceTree = "<group>"; };
+		45E2399D1F1892A200A8558A /* ModalNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalNavigationController.swift; sourceTree = "<group>"; };
+		45E2399F1F18947100A8558A /* SecondViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
+		45E239A11F18949500A8558A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				45E239721F18909400A8558A /* Assets.xcassets */,
 				45E239741F18909400A8558A /* LaunchScreen.storyboard */,
 				45E239771F18909500A8558A /* Info.plist */,
+				45E239991F1890ED00A8558A /* ModalViewController.swift */,
+				45E2399B1F18914800A8558A /* ModalViewController.storyboard */,
+				45E2399D1F1892A200A8558A /* ModalNavigationController.swift */,
+				45E2399F1F18947100A8558A /* SecondViewController.storyboard */,
+				45E239A11F18949500A8558A /* SecondViewController.swift */,
 			);
 			path = PushVCInBackGroundPractice;
 			sourceTree = "<group>";
@@ -236,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E239761F18909400A8558A /* LaunchScreen.storyboard in Resources */,
+				45E2399C1F18914800A8558A /* ModalViewController.storyboard in Resources */,
+				45E239A01F18947100A8558A /* SecondViewController.storyboard in Resources */,
 				45E239731F18909400A8558A /* Assets.xcassets in Resources */,
 				45E239711F18909400A8558A /* Main.storyboard in Resources */,
 			);
@@ -263,7 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E2396E1F18909400A8558A /* ViewController.swift in Sources */,
+				45E2399A1F1890ED00A8558A /* ModalViewController.swift in Sources */,
 				45E2396C1F18909400A8558A /* AppDelegate.swift in Sources */,
+				45E239A21F18949500A8558A /* SecondViewController.swift in Sources */,
+				45E2399E1F1892A200A8558A /* ModalNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

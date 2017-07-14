@@ -9,17 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+	@IBAction func pressedButton(_ sender: UIButton) {
+		let sb = UIStoryboard(name: "ModalViewController", bundle: nil)
+		let nc = sb.instantiateInitialViewController() as! ModalNavigationController
+		nc.modalDelegate = self
+		let vc = nc.viewControllers.first as! ModalViewController
+		present(nc, animated: true, completion: nil)
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-
 }
 
+extension ViewController: ModalNavigationControllerDelegate {
+	func modalNavigationControllerWillDismiss(_ modalNavigationController: ModalNavigationController) {
+		let sb = UIStoryboard(name: "SecondViewController", bundle: nil)
+		let vc = sb.instantiateInitialViewController() as! SecondViewController
+		navigationController?.pushViewController(vc, animated: true)
+	}
+}
